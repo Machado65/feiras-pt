@@ -1,6 +1,6 @@
 name: integrar
 
-# A routine semanal do Claude faz push para um ramo claude/*. Este workflow
+# A routine mensal do Claude faz push para um ramo claude/*. Este workflow
 # confirma que o ramo só mexe em feiras.json e que o ficheiro é válido, junta as
 # alterações no main num único commit do github-actions (o Claude não fica como
 # autor no main), apaga o ramo e dispara a publicação (um push feito com o

@@ -3,6 +3,7 @@
     {
       "id": "feira-nacional-do-cavalo-golega-2026",
       "nome": "Feira Nacional do Cavalo",
+      "nome_en": "National Horse Fair",
       "categoria": "tradicional",
       "inicio": "2026-11-06",
       "fim": "2026-11-15",
@@ -11,6 +12,7 @@
       "cidade": "Golegã",
       "distrito": "Santarém",
       "descricao": "A feira do cavalo lusitano e de São Martinho na Golegã, com provas equestres, castanhas e água-pé. 50.ª edição.",
+      "descricao_en": "Golegã's horse fair and St Martin's fair, celebrating the Lusitano horse with equestrian events, roast chestnuts and água-pé (young wine). 50th edition.",
       "url": "https://www.visitportugal.com/pt-pt/content/feira-nacional-do-cavalo",
       "fonte": "https://www.viralagenda.com/pt/events/1807627/feira-da-golega-2026-feira-nacional-do-cavalo",
       "atualizado": "2026-11-08"
@@ -18,6 +20,7 @@
     {
       "id": "festa-da-vinha-e-do-vinho-borba-2026",
       "nome": "Festa da Vinha e do Vinho",
+      "nome_en": "Vine and Wine Festival",
       "categoria": "vinho",
       "inicio": "2026-11-11",
       "fim": "2026-11-15",
@@ -26,6 +29,7 @@
       "cidade": "Borba",
       "distrito": "Évora",
       "descricao": "35.ª edição, com o vinho novo apresentado no São Martinho, festival gastronómico, circuito de tabernas e cortejo alegórico no último dia.",
+      "descricao_en": "35th edition, with the new wine presented on St Martin's Day, a food festival, a tavern trail and a parade on the last day.",
       "url": "https://www.cm-borba.pt/investidor/mercados-e-feiras/festa-da-vinha-e-do-vinho/festa-da-vinha-e-do-vinho-2026/",
       "fonte": "https://www.cm-borba.pt/investidor/mercados-e-feiras/festa-da-vinha-e-do-vinho/festa-da-vinha-e-do-vinho-2026/",
       "atualizado": "2026-11-08"
@@ -33,6 +37,7 @@
     {
       "id": "festa-do-castanheiro-marvao-2026",
       "nome": "Festa do Castanheiro – Feira da Castanha",
+      "nome_en": "Chestnut Festival and Fair",
       "categoria": "gastronomia",
       "inicio": "2026-11-14",
       "fim": "2026-11-15",
@@ -40,7 +45,9 @@
       "cidade": "Marvão",
       "distrito": "Portalegre",
       "descricao": "42.ª edição da feira da castanha de Marvão.",
+      "descricao_en": "42nd edition of Marvão's chestnut fair.",
       "nota": "A Quinzena Gastronómica da Castanha continua nos restaurantes até 29 de novembro.",
+      "nota_en": "Restaurants keep serving chestnut dishes during the Chestnut Food Fortnight, until 29 November.",
       "url": "https://www.cm-marvao.pt/",
       "fonte": "https://www.cm-marvao.pt/wp-content/uploads/2026/01/Agenda-Cultural-Marvao-2026.pdf",
       "atualizado": "2026-11-08"
@@ -48,6 +55,7 @@
     {
       "id": "agueda-e-natal-2026",
       "nome": "Águeda é Natal",
+      "nome_en": "Christmas in Águeda",
       "categoria": "natal",
       "inicio": "2026-11-14",
       "fim": "2027-01-10",
@@ -55,7 +63,9 @@
       "cidade": "Águeda",
       "distrito": "Aveiro",
       "descricao": "Natal na cidade dos guarda-chuvas: ruas iluminadas, mercado de Natal, pista de gelo e o maior e o menor Pai Natal do mundo.",
+      "descricao_en": "Christmas in the town of umbrellas: lit-up streets, a Christmas market, an ice rink and the world's biggest and smallest Santa.",
       "nota": "Início a 14 de novembro segundo a imprensa; o fim foi estimado a partir da edição anterior (15 de novembro de 2025 a 11 de janeiro de 2026).",
+      "nota_en": "Opening on 14 November according to the press; the end date is estimated from the previous edition (15 November 2025 to 11 January 2026).",
       "url": "https://www.cm-agueda.pt/",
       "fonte": "https://www.e-konomista.pt/mercados-de-natal-em-portugal/",
       "atualizado": "2026-11-08"
@@ -63,6 +73,7 @@
     {
       "id": "mostra-doces-licores-conventuais-alcobaca-2026",
       "nome": "Mostra Internacional de Doces & Licores Conventuais",
+      "nome_en": "International Convent Sweets and Liqueurs Show",
       "categoria": "gastronomia",
       "inicio": "2026-11-19",
       "fim": "2026-11-22",
@@ -71,6 +82,7 @@
       "cidade": "Alcobaça",
       "distrito": "Leiria",
       "descricao": "28.ª edição da mostra de doçaria e licores conventuais, portugueses e estrangeiros, no Mosteiro de Alcobaça.",
+      "descricao_en": "28th edition of the show of convent sweets and liqueurs, from Portugal and abroad, at Alcobaça Monastery.",
       "url": "https://www.cm-alcobaca.pt/",
       "fonte": "https://www.viralagenda.com/pt/events/1828888/28-mostra-internacional-de-doces-licores-conventuais",
       "atualizado": "2026-11-08"
@@ -78,6 +90,7 @@
     {
       "id": "feira-do-mel-e-da-castanha-lousa-2026",
       "nome": "Feira do Mel e da Castanha",
+      "nome_en": "Honey and Chestnut Fair",
       "categoria": "gastronomia",
       "inicio": "2026-11-20",
       "fim": "2026-11-22",
@@ -85,6 +98,7 @@
       "cidade": "Lousã",
       "distrito": "Coimbra",
       "descricao": "35.ª edição da feira do mel e da castanha da serra da Lousã.",
+      "descricao_en": "35th edition of the honey and chestnut fair of the Lousã mountains.",
       "url": "https://cm-lousa.pt/",
       "fonte": "https://www.e-konomista.pt/feiras-da-castanha/",
       "atualizado": "2026-11-08"
@@ -92,6 +106,7 @@
     {
       "id": "obidos-vila-natal-2026",
       "nome": "Óbidos Vila Natal",
+      "nome_en": "Óbidos Christmas Village",
       "categoria": "natal",
       "inicio": "2026-11-27",
       "fim": "2027-01-03",
@@ -100,7 +115,9 @@
       "cidade": "Óbidos",
       "distrito": "Leiria",
       "descricao": "A vila medieval de Óbidos transformada em vila de Natal, com mercado, pista de gelo e espetáculos para famílias.",
+      "descricao_en": "The medieval town of Óbidos turned into a Christmas village, with a market, an ice rink and shows for families.",
       "nota": "Em 2025 a entrada foi paga e por sessões; vê as condições no site antes de ir.",
+      "nota_en": "In 2025 entry was paid and by time slot; check the conditions on the website before you go.",
       "url": "https://www.visitportugal.com/en/content/obidos-vila-natal",
       "fonte": "https://comercioenoticias.pt/mais-de-duzentas-mil-pessoas-visitaram-o-obidos-vila-natal/",
       "atualizado": "2026-11-08"
@@ -108,6 +125,7 @@
     {
       "id": "wonderland-lisboa-2026",
       "nome": "Wonderland Lisboa",
+      "nome_en": "Wonderland Lisboa",
       "categoria": "natal",
       "inicio": "2026-11-27",
       "fim": "2027-01-03",
@@ -116,7 +134,9 @@
       "cidade": "Lisboa",
       "distrito": "Lisboa",
       "descricao": "O maior mercado de Natal de Lisboa, com casinhas de Natal, roda gigante, pista de gelo e Casa do Pai Natal. Entrada livre, atrações pagas.",
+      "descricao_en": "Lisbon's biggest Christmas market, with Christmas stalls, a big wheel, an ice rink and Santa's house. Free entry, paid attractions.",
       "nota": "Datas avançadas pela imprensa e por guias (27 de novembro a 3 de janeiro); falta o anúncio oficial.",
+      "nota_en": "Dates reported by the press and guides (27 November to 3 January); not yet officially announced.",
       "url": "https://www.visitlisboablog.pt/2026/11/guia-completo-do-wonderland-lisboa-2026.html",
       "fonte": "https://www.e-konomista.pt/mercados-de-natal-em-portugal/",
       "atualizado": "2026-11-08"
@@ -124,6 +144,7 @@
     {
       "id": "perlim-2026",
       "nome": "Perlim",
+      "nome_en": "Perlim",
       "categoria": "natal",
       "inicio": "2026-11-28",
       "fim": "2026-12-30",
@@ -132,6 +153,7 @@
       "cidade": "Santa Maria da Feira",
       "distrito": "Aveiro",
       "descricao": "Parque temático de Natal na Quinta do Castelo, com mercado de Natal no Largo do Rossio.",
+      "descricao_en": "Christmas theme park at Quinta do Castelo, with a Christmas market in Largo do Rossio.",
       "url": "https://www.perlim.pt/pt-pt/",
       "fonte": "https://www.e-konomista.pt/mercados-de-natal-em-portugal/",
       "atualizado": "2026-11-08"
@@ -139,6 +161,7 @@
     {
       "id": "festa-das-chouricas-querenca-2027",
       "nome": "Festa das Chouriças",
+      "nome_en": "Smoked Sausage Festival",
       "categoria": "gastronomia",
       "inicio": "2027-01-16",
       "fim": "2027-01-17",
@@ -146,7 +169,9 @@
       "cidade": "Querença (Loulé)",
       "distrito": "Faro",
       "descricao": "Festa em honra de São Luís na serra algarvia, com o tradicional leilão de chouriças e fumeiro.",
+      "descricao_en": "Festival in honour of St Louis in the Algarve hills, with the traditional auction of chouriças (smoked sausages) and other cured meats.",
       "nota": "Datas estimadas: costuma ser no terceiro fim de semana de janeiro (em 2024 foi a 20 e 21).",
+      "nota_en": "Estimated dates: usually the third weekend of January (20–21 January in 2024).",
       "url": "https://www.cm-loule.pt/",
       "fonte": "https://www.sulinformacao.pt/en/2024/01/vem-ai-mais-uma-festa-das-chouricas-de-querenca/",
       "atualizado": "2026-11-08"
@@ -154,6 +179,7 @@
     {
       "id": "feira-do-fumeiro-montalegre-2027",
       "nome": "Feira do Fumeiro e Presunto do Barroso",
+      "nome_en": "Barroso Smoked Meats and Ham Fair",
       "categoria": "gastronomia",
       "inicio": "2027-01-21",
       "fim": "2027-01-24",
@@ -162,7 +188,9 @@
       "cidade": "Montalegre",
       "distrito": "Vila Real",
       "descricao": "A grande feira do fumeiro e do presunto do Barroso, com produtores da Terra Fria barrosã.",
+      "descricao_en": "The big fair of Barroso smoked sausages and ham, with producers from the Barroso uplands.",
       "nota": "Datas estimadas a partir da edição de 2026 (22 a 25 de janeiro, de quinta a domingo).",
+      "nota_en": "Estimated from the 2026 edition (22–25 January, Thursday to Sunday).",
       "url": "https://www.cm-montalegre.pt/",
       "fonte": "https://visitportugal.com/en/node/507319",
       "atualizado": "2026-11-08"
@@ -170,6 +198,7 @@
     {
       "id": "feira-do-fumeiro-vinhais-2027",
       "nome": "Feira do Fumeiro de Vinhais",
+      "nome_en": "Vinhais Smoked Meats Fair",
       "categoria": "gastronomia",
       "inicio": "2027-02-04",
       "fim": "2027-02-07",
@@ -177,7 +206,9 @@
       "cidade": "Vinhais",
       "distrito": "Bragança",
       "descricao": "Feira do fumeiro do porco bísaro, presunto e produtos da terra, que se faz todos os anos em fevereiro desde 1981.",
+      "descricao_en": "Fair of smoked sausages from the Bísaro pig, ham and local produce, held every February since 1981.",
       "nota": "Datas estimadas: em 2025 foi de 6 a 9 e em 2026 de 5 a 8 de fevereiro, sempre de quinta a domingo.",
+      "nota_en": "Estimated: 6–9 February in 2025 and 5–8 February in 2026, always Thursday to Sunday.",
       "url": "https://www.cm-vinhais.pt/",
       "fonte": "https://www.cm-vinhais.pt/cmvinhais/uploads/writer_file/document/3793/46a_feira_do_fumeiro_de_vinhais___press_release.pdf",
       "atualizado": "2026-11-08"
@@ -185,6 +216,7 @@
     {
       "id": "festival-do-butelo-braganca-2027",
       "nome": "Festival do Butelo e das Casulas",
+      "nome_en": "Butelo and Casulas Festival",
       "categoria": "gastronomia",
       "inicio": "2027-02-05",
       "fim": "2027-02-09",
@@ -192,7 +224,9 @@
       "cidade": "Bragança",
       "distrito": "Bragança",
       "descricao": "Festival dedicado ao butelo com casulas, prato típico do Entrudo transmontano.",
+      "descricao_en": "Festival devoted to butelo (a smoked pork sausage) with casulas (dried bean pods), the typical Carnival dish of Trás-os-Montes.",
       "nota": "Datas estimadas: em 2026 foi de 13 a 17 de fevereiro, até à terça-feira de Carnaval; em 2027 o Carnaval é a 9 de fevereiro.",
+      "nota_en": "Estimated: in 2026 it ran 13–17 February, ending on Shrove Tuesday; in 2027 Carnival falls on 9 February.",
       "url": "https://www.cm-braganca.pt/",
       "fonte": "https://www.portugal.com/food-drink/the-ultimate-guide-to-portugal-food-festivals-2026/",
       "atualizado": "2026-11-08"
@@ -200,6 +234,7 @@
     {
       "id": "feira-do-queijo-celorico-da-beira-2027",
       "nome": "Feira do Queijo",
+      "nome_en": "Cheese Fair",
       "categoria": "gastronomia",
       "inicio": "2027-02-19",
       "fim": "2027-02-21",
@@ -207,7 +242,9 @@
       "cidade": "Celorico da Beira",
       "distrito": "Guarda",
       "descricao": "Feira do queijo Serra da Estrela em Celorico da Beira, com produtores da região.",
+      "descricao_en": "Serra da Estrela cheese fair in Celorico da Beira, with producers from the region.",
       "nota": "Datas estimadas a partir da edição de 2026 (20 a 22 de fevereiro).",
+      "nota_en": "Estimated from the 2026 edition (20–22 February).",
       "url": "https://www.cm-celoricodabeira.pt/",
       "fonte": "https://www.portugal.com/food-drink/the-ultimate-guide-to-portugal-food-festivals-2026/",
       "atualizado": "2026-11-08"
@@ -215,6 +252,7 @@
     {
       "id": "feira-do-queijo-do-alentejo-serpa-2027",
       "nome": "Feira do Queijo do Alentejo",
+      "nome_en": "Alentejo Cheese Fair",
       "categoria": "gastronomia",
       "inicio": "2027-02-19",
       "fim": "2027-02-21",
@@ -222,7 +260,9 @@
       "cidade": "Serpa",
       "distrito": "Beja",
       "descricao": "Feira dedicada aos queijos do Alentejo, com destaque para o queijo de Serpa.",
+      "descricao_en": "Fair of Alentejo cheeses, especially Serpa cheese.",
       "nota": "Datas estimadas a partir da edição de 2026 (20 a 22 de fevereiro).",
+      "nota_en": "Estimated from the 2026 edition (20–22 February).",
       "url": "https://www.cm-serpa.pt/",
       "fonte": "https://www.portugal.com/food-drink/the-ultimate-guide-to-portugal-food-festivals-2026/",
       "atualizado": "2026-11-08"
@@ -230,6 +270,7 @@
     {
       "id": "essencia-do-vinho-porto-2027",
       "nome": "Essência do Vinho",
+      "nome_en": "Essência do Vinho Wine Show",
       "categoria": "vinho",
       "inicio": "2027-02-25",
       "fim": "2027-02-28",
@@ -238,7 +279,9 @@
       "cidade": "Porto",
       "distrito": "Porto",
       "descricao": "Grande prova de vinhos no Palácio da Bolsa, com cerca de 400 produtores e mais de 4000 vinhos.",
+      "descricao_en": "Large wine tasting at the Palácio da Bolsa, with around 400 producers and more than 4,000 wines.",
       "nota": "Datas estimadas: em 2025 foi de 20 a 23 de fevereiro e em 2026 de 26 de fevereiro a 1 de março (quinta a domingo).",
+      "nota_en": "Estimated: 20–23 February in 2025 and 26 February to 1 March in 2026 (Thursday to Sunday).",
       "url": "https://www.essenciadovinho.com/",
       "fonte": "https://eco.sapo.pt/2026/02/25/dos-vinhos-do-douro-a-champanhe-louis-roederer-mais-de-4-mil-vinhos-no-palacio-da-bolsa-ate-domingo/",
       "atualizado": "2026-11-08"
@@ -246,6 +289,7 @@
     {
       "id": "festival-chocolate-obidos-2027",
       "nome": "Festival Internacional de Chocolate",
+      "nome_en": "International Chocolate Festival",
       "categoria": "gastronomia",
       "inicio": "2027-03-05",
       "fim": "2027-03-21",
@@ -253,7 +297,9 @@
       "cidade": "Óbidos",
       "distrito": "Leiria",
       "descricao": "Festival do chocolate na vila de Óbidos, aberto às sextas, sábados e domingos.",
+      "descricao_en": "Chocolate festival in the town of Óbidos, open Fridays to Sundays.",
       "nota": "Datas estimadas: em 2026 foi de 6 a 22 de março (sextas a domingos); em 2025 de 21 de março a 6 de abril.",
+      "nota_en": "Estimated: 6–22 March in 2026 (Fridays to Sundays) and 21 March to 6 April in 2025.",
       "url": "https://www.cm-obidos.pt/",
       "fonte": "https://lisboasecreta.co/festival-internacional-chocolate-obidos-vila-medieval/",
       "atualizado": "2026-11-08"
@@ -261,6 +307,7 @@
     {
       "id": "feira-do-porco-alentejano-ourique-2027",
       "nome": "Feira do Porco Alentejano",
+      "nome_en": "Alentejo Black Pig Fair",
       "categoria": "gastronomia",
       "inicio": "2027-03-19",
       "fim": "2027-03-21",
@@ -268,7 +315,9 @@
       "cidade": "Ourique",
       "distrito": "Beja",
       "descricao": "Feira dedicada ao porco alentejano, com enchidos, presunto e gastronomia da região.",
+      "descricao_en": "Fair devoted to the Alentejo black pig, with sausages, ham and regional food.",
       "nota": "Datas estimadas a partir da edição de 2026 (20 a 22 de março).",
+      "nota_en": "Estimated from the 2026 edition (20–22 March).",
       "url": "https://www.cm-ourique.pt/",
       "fonte": "https://www.portugal.com/food-drink/the-ultimate-guide-to-portugal-food-festivals-2026/",
       "atualizado": "2026-11-08"
@@ -276,6 +325,7 @@
     {
       "id": "feira-de-marco-aveiro-2027",
       "nome": "Feira de Março",
+      "nome_en": "March Fair",
       "categoria": "tradicional",
       "inicio": "2027-03-25",
       "fim": "2027-04-25",
@@ -284,7 +334,9 @@
       "cidade": "Aveiro",
       "distrito": "Aveiro",
       "descricao": "Uma das feiras mais antigas do país, criada em 1434, com diversões, gastronomia, artesanato e concertos.",
+      "descricao_en": "One of Portugal's oldest fairs, founded in 1434, with funfair rides, food, crafts and concerts.",
       "nota": "Datas estimadas: começa tradicionalmente a 25 de março; em 2026 foi até 26 de abril.",
+      "nota_en": "Estimated: it traditionally opens on 25 March; in 2026 it ran until 26 April.",
       "url": "https://www.cm-aveiro.pt/",
       "fonte": "https://www.sabado.pt/comunicados-imprensa/detalhe/aveiro-recebe-mais-uma-edicao-da-historica-feira-de-marco",
       "atualizado": "2026-11-08"
@@ -292,6 +344,7 @@
     {
       "id": "festival-islamico-mertola-2027",
       "nome": "Festival Islâmico de Mértola",
+      "nome_en": "Mértola Islamic Festival",
       "categoria": "tradicional",
       "inicio": "2027-05-20",
       "fim": "2027-05-23",
@@ -299,7 +352,9 @@
       "cidade": "Mértola",
       "distrito": "Beja",
       "descricao": "Festival bienal que recria o passado islâmico da vila-museu, com souk (mercado), gastronomia, música e artesanato nas ruas.",
+      "descricao_en": "Biennial festival recreating the Islamic past of this museum town, with a souk, food, music and crafts in the streets.",
       "nota": "Realiza-se em maio dos anos ímpares; datas estimadas a partir de 2025 (22 a 25 de maio, quinta a domingo).",
+      "nota_en": "Held in May of odd years; estimated from 2025 (22–25 May, Thursday to Sunday).",
       "url": "https://www.cm-mertola.pt/",
       "fonte": "https://www.visitportugal.com/en/content/islamic-festival",
       "atualizado": "2026-11-08"
@@ -307,6 +362,7 @@
     {
       "id": "feira-nacional-de-agricultura-santarem-2027",
       "nome": "Feira Nacional de Agricultura",
+      "nome_en": "National Agriculture Fair",
       "categoria": "tradicional",
       "inicio": "2027-06-05",
       "fim": "2027-06-13",
@@ -315,7 +371,9 @@
       "cidade": "Santarém",
       "distrito": "Santarém",
       "descricao": "Feira Nacional de Agricultura e Feira do Ribatejo: agricultura, cavalos, tradições ribatejanas e tasquinhas.",
+      "descricao_en": "National Agriculture Fair and Ribatejo Fair: farming, horses, Ribatejo traditions and food stalls.",
       "nota": "Datas estimadas a partir da edição de 2026 (6 a 14 de junho, de sábado a domingo).",
+      "nota_en": "Estimated from the 2026 edition (6–14 June, Saturday to Sunday).",
       "url": "https://www.cnema.pt/",
       "fonte": "https://www.agroberichtenbuitenland.nl/actueel/agenda/2026/06/06/feira-nacional-de-agricultura-national-agriculture-fair",
       "atualizado": "2026-11-08"
@@ -323,6 +381,7 @@
     {
       "id": "feira-de-sao-joao-evora-2027",
       "nome": "Feira de São João",
+      "nome_en": "St John's Fair",
       "categoria": "tradicional",
       "inicio": "2027-06-23",
       "fim": "2027-07-04",
@@ -331,7 +390,9 @@
       "cidade": "Évora",
       "distrito": "Évora",
       "descricao": "Feira secular de Évora, com tasquinhas alentejanas, artesanato, diversões e concertos.",
+      "descricao_en": "Évora's centuries-old fair, with Alentejo food stalls, crafts, funfair rides and concerts.",
       "nota": "Datas estimadas a partir da edição de 2026 (23 de junho a 5 de julho).",
+      "nota_en": "Estimated from the 2026 edition (23 June to 5 July).",
       "url": "https://www.cm-evora.pt/",
       "fonte": "https://www.viralagenda.com/pt/events/1817875/feira-de-sao-joao-de-evora-2026",
       "atualizado": "2026-11-08"
@@ -339,6 +400,7 @@
     {
       "id": "fia-lisboa-2027",
       "nome": "FIA Lisboa – Feira Internacional de Artesanato",
+      "nome_en": "FIA Lisboa – International Crafts Fair",
       "categoria": "artesanato",
       "inicio": "2027-06-26",
       "fim": "2027-07-04",
@@ -347,6 +409,7 @@
       "cidade": "Lisboa",
       "distrito": "Lisboa",
       "descricao": "A maior feira de artesanato do país, com artesãos portugueses e estrangeiros, gastronomia regional e animação.",
+      "descricao_en": "Portugal's largest crafts fair, with Portuguese and international craftspeople, regional food and entertainment.",
       "url": "https://fialisboa.fil.pt/",
       "fonte": "https://www.sabado.pt/comunicados-imprensa/detalhe/fia-lisboa-2026-mantem-viva-a-tradicao-e-o-encontro-entre-artesaos-e-publico",
       "atualizado": "2026-11-08"
@@ -354,6 +417,7 @@
     {
       "id": "feira-do-alvarinho-moncao-2027",
       "nome": "Feira do Alvarinho",
+      "nome_en": "Alvarinho Wine Fair",
       "categoria": "vinho",
       "inicio": "2027-07-01",
       "fim": "2027-07-04",
@@ -361,7 +425,9 @@
       "cidade": "Monção",
       "distrito": "Viana do Castelo",
       "descricao": "Festa do vinho Alvarinho em Monção, com provas, gastronomia minhota e concertos.",
+      "descricao_en": "Festival of Alvarinho wine in Monção, with tastings, Minho food and concerts.",
       "nota": "Datas estimadas a partir da edição de 2026 (2 a 5 de julho, de quinta a domingo).",
+      "nota_en": "Estimated from the 2026 edition (2–5 July, Thursday to Sunday).",
       "url": "https://www.cm-moncao.pt/",
       "fonte": "https://www.portugal.com/food-drink/the-ultimate-guide-to-portugal-food-festivals-2026/",
       "atualizado": "2026-11-08"
@@ -369,6 +435,7 @@
     {
       "id": "festival-medieval-elvas-2027",
       "nome": "Festival Medieval de Elvas",
+      "nome_en": "Elvas Medieval Festival",
       "categoria": "medieval",
       "inicio": "2027-07-01",
       "fim": "2027-07-04",
@@ -376,7 +443,9 @@
       "cidade": "Elvas",
       "distrito": "Portalegre",
       "descricao": "Recriação medieval no centro histórico de Elvas.",
+      "descricao_en": "Medieval re-enactment in the historic centre of Elvas.",
       "nota": "Datas estimadas a partir da edição de 2026 (2 a 5 de julho).",
+      "nota_en": "Estimated from the 2026 edition (2–5 July).",
       "url": "https://cm-elvas.pt/descobrir/cultura/eventos-anuais/festival-medieval/",
       "fonte": "https://www.e-konomista.pt/feiras-medievais-julho/",
       "atualizado": "2026-11-08"
@@ -384,6 +453,7 @@
     {
       "id": "mercado-medieval-obidos-2027",
       "nome": "Mercado Medieval de Óbidos",
+      "nome_en": "Óbidos Medieval Market",
       "categoria": "medieval",
       "inicio": "2027-07-15",
       "fim": "2027-07-25",
@@ -392,7 +462,9 @@
       "cidade": "Óbidos",
       "distrito": "Leiria",
       "descricao": "Mercado medieval no castelo e nas muralhas de Óbidos, com recriações, torneios, tabernas e espetáculos.",
+      "descricao_en": "Medieval market in the castle and town walls of Óbidos, with re-enactments, tournaments, taverns and shows.",
       "nota": "Datas estimadas a partir da edição de 2026 (16 a 26 de julho).",
+      "nota_en": "Estimated from the 2026 edition (16–26 July).",
       "url": "https://mercadomedievalobidos.pt/",
       "fonte": "https://www.e-konomista.pt/feiras-medievais-julho/",
       "atualizado": "2026-11-08"
@@ -400,6 +472,7 @@
     {
       "id": "feira-de-santiago-setubal-2027",
       "nome": "Feira de Sant'Iago",
+      "nome_en": "Sant'Iago Fair",
       "categoria": "tradicional",
       "inicio": "2027-07-22",
       "fim": "2027-08-01",
@@ -408,7 +481,9 @@
       "cidade": "Setúbal",
       "distrito": "Setúbal",
       "descricao": "A grande feira anual de Setúbal, com diversões, tasquinhas, artesanato e concertos durante 11 dias.",
+      "descricao_en": "Setúbal's big yearly fair, with funfair rides, food stalls, crafts and 11 days of concerts.",
       "nota": "Datas estimadas a partir da edição de 2026 (23 de julho a 2 de agosto).",
+      "nota_en": "Estimated from the 2026 edition (23 July to 2 August).",
       "url": "https://www.visitlisboa.com/en/events/santiago-fair-setubal",
       "fonte": "https://echoboomer.pt/ena-pa-2000-the-legendary-tigerman-feira-de-santiago-2026/",
       "atualizado": "2026-11-08"
@@ -416,6 +491,7 @@
     {
       "id": "viagem-medieval-santa-maria-da-feira-2027",
       "nome": "Viagem Medieval",
+      "nome_en": "Medieval Journey (Viagem Medieval)",
       "categoria": "medieval",
       "inicio": "2027-07-28",
       "fim": "2027-08-08",
@@ -424,7 +500,9 @@
       "cidade": "Santa Maria da Feira",
       "distrito": "Aveiro",
       "descricao": "Viagem Medieval em Terra de Santa Maria, a maior recriação medieval da Península Ibérica: 12 dias de mercado, espetáculos e torneios.",
+      "descricao_en": "The Medieval Journey in the Land of Santa Maria, the largest medieval re-enactment in the Iberian Peninsula: 12 days of market, shows and tournaments.",
       "nota": "Datas estimadas a partir da edição de 2026 (29 de julho a 9 de agosto).",
+      "nota_en": "Estimated from the 2026 edition (29 July to 9 August).",
       "url": "https://www.viagemmedieval.com/",
       "fonte": "https://www.e-konomista.pt/feiras-medievais-julho/",
       "atualizado": "2026-11-08"
@@ -432,6 +510,7 @@
     {
       "id": "feira-de-sao-mateus-viseu-2027",
       "nome": "Feira de São Mateus",
+      "nome_en": "St Matthew's Fair",
       "categoria": "tradicional",
       "inicio": "2027-08-05",
       "fim": "2027-09-05",
@@ -440,7 +519,9 @@
       "cidade": "Viseu",
       "distrito": "Viseu",
       "descricao": "Uma das feiras francas mais antigas da Península Ibérica, com mais de 600 edições: diversões, gastronomia, artesanato e concertos.",
+      "descricao_en": "One of the oldest chartered fairs in the Iberian Peninsula, with over 600 editions: funfair rides, food, crafts and concerts.",
       "nota": "Datas estimadas: em 2026 foi de 6 de agosto a 6 de setembro; em 2025 de 7 de agosto a 21 de setembro.",
+      "nota_en": "Estimated: 6 August to 6 September in 2026 and 7 August to 21 September in 2025.",
       "url": "https://www.feirasaomateus.pt/",
       "fonte": "https://www.feirasaomateus.pt/Regulamento%20FSM2026.pdf",
       "atualizado": "2026-11-08"
@@ -448,6 +529,7 @@
     {
       "id": "feira-medieval-silves-2027",
       "nome": "Feira Medieval de Silves",
+      "nome_en": "Silves Medieval Fair",
       "categoria": "medieval",
       "inicio": "2027-08-07",
       "fim": "2027-08-15",
@@ -455,7 +537,9 @@
       "cidade": "Silves",
       "distrito": "Faro",
       "descricao": "Feira medieval nas ruas e no castelo de Silves, com cortejos, torneios, banquetes e mercado.",
+      "descricao_en": "Medieval fair in the streets and castle of Silves, with parades, tournaments, banquets and a market.",
       "nota": "Datas estimadas a partir da edição de 2026 (7 a 15 de agosto).",
+      "nota_en": "Estimated from the 2026 edition (7–15 August).",
       "url": "https://feiramedievaldesilves.pt/",
       "fonte": "https://www.e-konomista.pt/feiras-medievais-agosto/",
       "atualizado": "2026-11-08"
@@ -463,6 +547,7 @@
     {
       "id": "festival-do-marisco-olhao-2027",
       "nome": "Festival do Marisco",
+      "nome_en": "Seafood Festival",
       "categoria": "gastronomia",
       "inicio": "2027-08-10",
       "fim": "2027-08-15",
@@ -471,7 +556,9 @@
       "cidade": "Olhão",
       "distrito": "Faro",
       "descricao": "Festival do marisco da Ria Formosa, com seis noites de concertos.",
+      "descricao_en": "Seafood festival with shellfish from the Ria Formosa and six nights of concerts.",
       "nota": "Datas estimadas: em 2026 foi de 10 a 15 de agosto.",
+      "nota_en": "Estimated: 10–15 August in 2026.",
       "url": "https://www.cm-olhao.pt/",
       "fonte": "https://postal.pt/algarve/olhao-apresenta-cartaz-do-festival-do-marisco-na-btl/",
       "atualizado": "2026-11-08"
@@ -479,6 +566,7 @@
     {
       "id": "dias-medievais-castro-marim-2027",
       "nome": "Dias Medievais de Castro Marim",
+      "nome_en": "Castro Marim Medieval Days",
       "categoria": "medieval",
       "inicio": "2027-08-25",
       "fim": "2027-08-29",
@@ -486,7 +574,9 @@
       "cidade": "Castro Marim",
       "distrito": "Faro",
       "descricao": "Recriação medieval no castelo e na vila de Castro Marim, com torneios, mercado e espetáculos.",
+      "descricao_en": "Medieval re-enactment in the castle and town of Castro Marim, with tournaments, a market and shows.",
       "nota": "Datas estimadas a partir da edição de 2026 (26 a 30 de agosto, de quarta a domingo).",
+      "nota_en": "Estimated from the 2026 edition (26–30 August, Wednesday to Sunday).",
       "url": "https://cm-castromarim.pt/",
       "fonte": "https://www.e-konomista.pt/feiras-medievais-agosto/",
       "atualizado": "2026-11-08"
@@ -494,6 +584,7 @@
     {
       "id": "festa-do-vinho-madeira-2027",
       "nome": "Festa do Vinho Madeira",
+      "nome_en": "Madeira Wine Festival",
       "categoria": "vinho",
       "inicio": "2027-08-26",
       "fim": "2027-09-12",
@@ -501,7 +592,9 @@
       "cidade": "Funchal",
       "distrito": "Madeira",
       "descricao": "Festa do vinho da Madeira, com a vindima tradicional e animação no Funchal.",
+      "descricao_en": "Madeira wine festival, with the traditional grape harvest and entertainment in Funchal.",
       "nota": "Datas estimadas a partir da edição de 2026 (27 de agosto a 13 de setembro).",
+      "nota_en": "Estimated from the 2026 edition (27 August to 13 September).",
       "url": "https://www.visitmadeira.com/",
       "fonte": "https://www.portugal.com/food-drink/the-ultimate-guide-to-portugal-food-festivals-2026/",
       "atualizado": "2026-11-08"
@@ -509,6 +602,7 @@
     {
       "id": "feiras-novas-ponte-de-lima-2027",
       "nome": "Feiras Novas",
+      "nome_en": "Feiras Novas",
       "categoria": "tradicional",
       "inicio": "2027-09-10",
       "fim": "2027-09-13",
@@ -516,7 +610,9 @@
       "cidade": "Ponte de Lima",
       "distrito": "Viana do Castelo",
       "descricao": "Feira e romaria centenárias de Ponte de Lima, com cortejo, fogo de artifício, concertinas e arraial minhoto.",
+      "descricao_en": "Ponte de Lima's two-century-old fair and pilgrimage festival, with a parade, fireworks, concertinas and a Minho street party.",
       "nota": "Datas estimadas: em 2026, ano dos 200 anos, foi de 9 a 14 de setembro.",
+      "nota_en": "Estimated: in 2026, its 200th anniversary, it ran 9–14 September.",
       "url": "https://www.cm-pontedelima.pt/",
       "fonte": "https://www.cm-pontedelima.pt/cmpontedelima/uploads/writer_file/document/7838/programa_feiras_novas_2026.pdf",
       "atualizado": "2026-11-08"
@@ -524,6 +620,7 @@
     {
       "id": "festival-nacional-gastronomia-santarem-2027",
       "nome": "Festival Nacional de Gastronomia",
+      "nome_en": "National Gastronomy Festival",
       "categoria": "gastronomia",
       "inicio": "2027-10-21",
       "fim": "2027-10-31",
@@ -532,7 +629,9 @@
       "cidade": "Santarém",
       "distrito": "Santarém",
       "descricao": "O grande festival da gastronomia portuguesa, com restaurantes, confrarias e produtos de todo o país.",
+      "descricao_en": "The big festival of Portuguese food, with restaurants, gastronomic brotherhoods and produce from all over the country.",
       "nota": "Datas estimadas a partir da edição de 2026 (22 de outubro a 1 de novembro).",
+      "nota_en": "Estimated from the 2026 edition (22 October to 1 November).",
       "url": "https://www.visitportugal.com/pt-pt/content/festival-nacional-de-gastronomia",
       "fonte": "https://www.visitportugal.com/pt-pt/content/festival-nacional-de-gastronomia",
       "atualizado": "2026-11-08"
@@ -540,6 +639,7 @@
     {
       "id": "feira-dos-santos-chaves-2027",
       "nome": "Feira dos Santos",
+      "nome_en": "All Saints' Fair",
       "categoria": "tradicional",
       "inicio": "2027-10-29",
       "fim": "2027-11-01",
@@ -547,7 +647,9 @@
       "cidade": "Chaves",
       "distrito": "Vila Real",
       "descricao": "A grande feira anual de Chaves, à volta do Dia de Todos os Santos, com artesanato, fumeiro e castanha.",
+      "descricao_en": "Chaves's big yearly fair around All Saints' Day, with crafts, smoked meats and chestnuts.",
       "nota": "Datas estimadas: faz-se entre o fim de outubro e 1 de novembro (em 2021 foi de 30 de outubro a 1 de novembro).",
+      "nota_en": "Estimated: it runs from late October to 1 November (30 October to 1 November in 2021).",
       "url": "https://www.chaves.pt/",
       "fonte": "https://www.sabado.pt/comunicados-imprensa/detalhe/20211022-1624-20s-1-1013621-feira-dos-santos-regressa-as-ruas-de-chaves",
       "atualizado": "2026-11-08"
@@ -555,6 +657,7 @@
     {
       "id": "feira-nacional-do-cavalo-golega-2027",
       "nome": "Feira Nacional do Cavalo",
+      "nome_en": "National Horse Fair",
       "categoria": "tradicional",
       "inicio": "2027-11-05",
       "fim": "2027-11-14",
@@ -563,7 +666,9 @@
       "cidade": "Golegã",
       "distrito": "Santarém",
       "descricao": "A feira do cavalo lusitano e de São Martinho na Golegã, com provas equestres, castanhas e água-pé.",
+      "descricao_en": "Golegã's horse fair and St Martin's fair, celebrating the Lusitano horse with equestrian events, roast chestnuts and água-pé (young wine).",
       "nota": "Datas estimadas: dura dez dias à volta do São Martinho (em 2026 foi de 6 a 15 de novembro).",
+      "nota_en": "Estimated: it runs for ten days around St Martin's Day, 11 November (6–15 November in 2026).",
       "url": "https://www.visitportugal.com/pt-pt/content/feira-nacional-do-cavalo",
       "fonte": "https://www.viralagenda.com/pt/events/1807627/feira-da-golega-2026-feira-nacional-do-cavalo",
       "atualizado": "2026-11-08"

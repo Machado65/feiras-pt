@@ -1,16 +1,16 @@
 # Feiras PT
 
-Calendário de feiras tradicionais e gastronómicas em Portugal (continente, Madeira e Açores). É publicado como ficheiro .ics em <https://machado65.github.io/feiras-pt/feiras.ics> e o dono subscreve-o no Google Calendar. Uma routine do Claude na cloud revê-o todas as semanas.
+Calendário de feiras tradicionais e gastronómicas em Portugal (continente, Madeira e Açores), em dois ficheiros .ics: <https://machado65.github.io/feiras-pt/feiras.ics> em português e <https://machado65.github.io/feiras-pt/fairs.ics> em inglês. O repositório é público e muitos dos utilizadores são estrangeiros, por isso a versão inglesa conta tanto como a portuguesa. O dono subscreve a versão portuguesa no Google Calendar. Uma routine do Claude na cloud revê o calendário no dia 1 de cada mês.
 
 ## Como funciona
 
 - `feiras.json` é a única fonte de verdade. A routine só mexe neste ficheiro.
-- `gerar_ics.py` valida o JSON e gera `_site/feiras.ics`. Usa só a biblioteca padrão.
+- `gerar_ics.py` valida o JSON e gera `_site/feiras.ics` (português) e `_site/fairs.ics` (inglês). Usa só a biblioteca padrão.
   - `python3 gerar_ics.py --listar` mostra as feiras por data.
-  - `python3 gerar_ics.py --formatar` valida, ordena e normaliza o JSON e gera o .ics.
+  - `python3 gerar_ics.py --formatar` valida, ordena e normaliza o JSON e gera os dois .ics.
 - `.github/workflows/publicar.yml` corre em cada push para `main`: valida, gera e publica no GitHub Pages.
 - `.github/workflows/integrar.yml` corre quando um ramo `claude/*` recebe um push (é para onde a routine faz push). Se o ramo só mudar `feiras.json` e o ficheiro for válido, junta as alterações no `main` num único commit do github-actions (o Claude nunca aparece como autor no `main`), apaga o ramo e dispara a publicação. Se mudar outros ficheiros, falha e não junta nada.
-- O Google Calendar volta a ler o .ics sozinho (pode demorar até um dia).
+- O Google Calendar e as outras apps voltam a ler os .ics sozinhas (pode demorar até um dia).
 
 ## O que entra
 
@@ -41,6 +41,7 @@ Não entram:
     {
       "id": "feira-do-fumeiro-vinhais-2027",
       "nome": "Feira do Fumeiro de Vinhais",
+      "nome_en": "Vinhais Smoked Meats Fair",
       "categoria": "gastronomia",
       "inicio": "2027-02-04",
       "fim": "2027-02-07",
@@ -48,7 +49,9 @@ Não entram:
       "cidade": "Vinhais",
       "distrito": "Bragança",
       "descricao": "Uma ou duas frases factuais em português de Portugal.",
+      "descricao_en": "The same in British English.",
       "nota": "Datas estimadas: em 2025 foi de 6 a 9 e em 2026 de 5 a 8 de fevereiro.",
+      "nota_en": "Estimated: 6–9 February in 2025 and 5–8 February in 2026.",
       "url": "https://www.cm-vinhais.pt/",
       "fonte": "https://onde-confirmaste-as-datas",
       "atualizado": "2026-11-08"
@@ -65,16 +68,17 @@ Não entram:
 - `local` (opcional): recinto ou zona. `cidade`: localidade ou concelho. `distrito`: distrito, ou `Madeira` ou `Açores`.
 - `url`: a melhor página para o visitante (organização ou câmara). `fonte`: a página onde confirmaste as datas (pode ser a mesma).
 - `nota` (opcional nas confirmadas): informação prática curta.
+- `nome_en`, `descricao_en` e `nota_en` são a versão inglesa (inglês britânico) e são obrigatórios; `nota_en` existe sempre que existir `nota`. Traduz os nomes descritivos (Feira do Queijo → Cheese Fair) e mantém os nomes próprios (Wonderland Lisboa, Feiras Novas, Perlim). Explica em poucas palavras os termos locais, por exemplo "água-pé (young wine)". O calendário inglês mostra também o nome português.
 - `estado: "cancelada"` quando uma edição é cancelada. Mantém a entrada; o calendário mostra-a como cancelada.
 - `atualizado`: põe a data de hoje sempre que mudares uma entrada, e só nesse caso.
 
-## Atualização semanal
+## Atualização mensal
 
-Este é o procedimento da routine. Segue-o do princípio ao fim.
+Este é o procedimento da routine, que corre no dia 1 de cada mês. Segue-o do princípio ao fim.
 
 1. Corre `python3 gerar_ics.py --listar` para ver o estado atual.
 2. **Confirmar.** Para cada entrada com `confirmado: false` que comece nos próximos 6 meses, procura as datas oficiais. Se as encontrares, corrige as datas, põe `confirmado: true`, atualiza `fonte` e `atualizado` e apaga a `nota` (ou troca-a por informação prática).
-3. **Rever as próximas.** Para as entradas que comecem nas próximas 4 semanas, procura adiamentos, mudanças de datas ou cancelamentos.
+3. **Rever as próximas.** Para as entradas que comecem nas próximas 6 semanas, procura adiamentos, mudanças de datas ou cancelamentos.
 4. **Procurar novas** para os próximos 12 meses:
    - Percorre a lista de referência abaixo. Se uma feira anual não tiver entrada para a próxima edição e essa edição começar nos próximos 12 meses, cria-a. Usa datas oficiais se já existirem; se não, estima-as a partir da última edição (mesmo dia da semana) com `confirmado: false`.
    - Pesquisa por mês e por tema para descobrir outras feiras que cumpram os critérios, por exemplo "feiras gastronómicas dezembro 2026", "feira do fumeiro 2027", "feiras medievais 2027", "mercados de Natal 2026", "feira do queijo 2027", ou agendas regionais (Trás-os-Montes, Beiras, Alentejo, Algarve, Madeira, Açores).
@@ -88,7 +92,7 @@ Regras:
 
 - Não inventes datas. Uma data estimada leva sempre `confirmado: false` e uma nota.
 - Não mexas noutros ficheiros. Se achares que o código, os workflows ou este documento precisam de mudar, diz isso no resumo.
-- Escreve em português de Portugal, sem emojis.
+- Escreve os campos em português de Portugal e os campos `_en` em inglês britânico, sem emojis. O resumo final é em português de Portugal.
 - Os commits não levam `Co-Authored-By` nem menções ao Claude: o dono é o único autor do projeto.
 
 ## Fontes úteis
