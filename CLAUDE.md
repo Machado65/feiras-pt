@@ -81,7 +81,7 @@ Este é o procedimento da routine, que corre no dia 1 de cada mês. Segue-o do p
 3. **Rever as próximas.** Para as entradas que comecem nas próximas 6 semanas, procura adiamentos, mudanças de datas ou cancelamentos.
 4. **Procurar novas** para os próximos 12 meses:
    - Percorre a lista de referência abaixo. Se uma feira anual não tiver entrada para a próxima edição e essa edição começar nos próximos 12 meses, cria-a. Usa datas oficiais se já existirem; se não, estima-as a partir da última edição (mesmo dia da semana) com `confirmado: false`.
-   - Pesquisa por mês e por tema para descobrir outras feiras que cumpram os critérios, por exemplo "feiras gastronómicas dezembro 2026", "feira do fumeiro 2027", "feiras medievais 2027", "mercados de Natal 2026", "feira do queijo 2027", ou agendas regionais (Trás-os-Montes, Beiras, Alentejo, Algarve, Madeira, Açores).
+   - Não fiques pela lista de referência. Para cada um dos próximos 3 meses, pesquisa feiras gastronómicas, de vinho e medievais (e mercados de Natal, na época) em todas as regiões: Minho, Trás-os-Montes, Beiras, Centro, Lisboa, Alentejo, Algarve, Madeira e Açores. Por exemplo: "feiras gastronómicas dezembro 2026", "feira do fumeiro janeiro 2027", "mercado de Natal 2026 Braga", "feira do queijo fevereiro 2027". As feiras destes 3 meses são as que mais importam, porque na revisão seguinte algumas já terão começado.
    - Antes de criar uma entrada, confirma que ainda não existe (procura pelo nome e pela cidade).
 5. **Limpar.** Apaga as entradas que terminaram há mais de 12 meses.
 6. Corre `python3 gerar_ics.py --formatar`. Tem de terminar sem erros; se der erros, corrige-os.
@@ -99,7 +99,9 @@ Regras:
 
 - Sites das câmaras (`cm-<concelho>.pt`, por exemplo cm-vinhais.pt, cm-montalegre.pt, cm-borba.pt). Muitas publicam a agenda ou o regulamento da feira em PDF.
 - viralagenda.com (por distrito e concelho, nas categorias "markets-fairs" e "gastronomy"), e-konomista.pt (guias mensais de feiras medievais, castanha e Natal), agroportal.pt (feiras agrícolas e de fumeiro), turismodocentro.pt, visitalentejo.pt, visitlisboa.com, portosecreto.co, lisboasecreta.co, nit.pt, timeout.pt, postal.pt e sulinformacao.pt (Algarve), visitmadeira.com, visitazores.com.
+- essenciadovinho.com tem as datas das edições do Essência do Vinho em Lisboa, na Madeira e no Porto. A imprensa regional (noticiasdevilareal.sapo.pt, odigital.sapo.pt, radiocampanario.com, linhasdeelvas.pt) costuma anunciar as datas das feiras do interior antes das agendas.
 - visitportugal.com bloqueia pedidos automáticos (desafio "Anubis"). Usa os excertos que aparecem nos resultados da pesquisa em vez de abrir as páginas.
+- Na cloud, o WebFetch pode não chegar a muitos sites (câmaras, viralagenda, e-konomista). Quando falhar, usa os excertos da pesquisa e diz no resumo que as datas vêm daí.
 
 ## Lista de referência
 
