@@ -1,0 +1,63 @@
+name: integrar
+
+# A routine semanal do Claude faz push para um ramo claude/*. Este workflow
+# confirma que o ramo só mexe em feiras.json e que o ficheiro é válido, junta as
+# alterações no main num único commit do github-actions (o Claude não fica como
+# autor no main), apaga o ramo e dispara a publicação (um push feito com o
+# GITHUB_TOKEN não dispara outros workflows, por isso o publicar é chamado à mão).
+on:
+  push:
+    branches: ['claude/**']
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: integrar
+  cancel-in-progress: false
+
+jobs:
+  integrar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Só pode mudar feiras.json
+        run: |
+          base=$(git merge-base origin/main HEAD)
+          mudados=$(git diff --name-only "$base" HEAD)
+          echo "Ficheiros alterados:"
+          echo "$mudados"
+          outros=$(printf '%s\n' "$mudados" | grep -vx 'feiras.json' || true)
+          if [ -n "$outros" ]; then
+            echo "::error::O ramo muda ficheiros além de feiras.json: $outros"
+            exit 1
+          fi
+
+      - name: Validar
+        run: python3 gerar_ics.py
+
+      - name: Juntar no main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B main origin/main
+          git merge --squash "$GITHUB_SHA"
+          python3 gerar_ics.py
+          if git diff --cached --quiet; then
+            echo "Nada de novo para juntar."
+          else
+            git commit -m "$(git log -1 --format=%s "$GITHUB_SHA")"
+            git push origin main
+          fi
+
+      - name: Apagar o ramo
+        run: git push origin --delete "$GITHUB_REF_NAME"
+
+      - name: Publicar
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run publicar.yml --ref main
